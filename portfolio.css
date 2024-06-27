@@ -242,3 +242,10 @@ li{
   .About{
     border-style: solid;
   }
+  .home{
+    background-image: url("pexels-kevin-ku-92347-577585.jpg");
+    background-repeat: no-repeat;
+     width: auto;
+     height: auto;
+
+   }
