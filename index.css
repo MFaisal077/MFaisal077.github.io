@@ -32,6 +32,8 @@
     }
 }
 
+
+
 h1{
 color:aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -39,7 +41,9 @@ text-align: center;
 padding-top: 50vh;
 font-size: 2.5rem;
 }
+
 h2{
+    color:aliceblue;
     text-align: center;
     font-size: 1.8rem;
     padding-top: 0.5vh;
@@ -51,7 +55,7 @@ h2{
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: white; /* Black */
+    background-color: darkcyan; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 100px;
     animation: slideIn 0.5s ease-out;
@@ -59,27 +63,29 @@ h2{
 
 
 .Navigation_bar a{
-    padding: 6px 8px 6px 16px;
+ padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
- 
+  font-weight: normal;
+  border-radius: 4px;
+  color:rgba(255,255,255,0.8);
+  background:rgba(145,90,182);
   display: block;
   border: solid;
   border-color:var(--clr -light);
-  transition: transform 0.3s, font-size 0.3s, background-color 0.3s;
+  transition: all 0.2s ease-in-out;
+ font-family: cursive;
 }
 
+
 .Navigation_bar a:hover{
-    color:var(--clr -light);
-transform: translateY(-10px);
-font-size: 5vh;
-background-color: red;
-animation: slideOut 0.5s ease-in;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 
 }
 .Navigation_bar a:active {
-    animation: glow 0.5s ease-in-out;
-    background-color: yellow; /* Optional: Change background color on click */
+    animation: glow 2s ease-in-out;
+   
 }
 
 body{
