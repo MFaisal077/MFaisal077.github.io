@@ -32,8 +32,19 @@
     }
 }
 
-p.title{
-   background-color: aqua;
+.title p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  color: aliceblue;
+  text-align: justify;
+  padding-left:180px;
+  font-size: 1.8rem;
+  transition: box-shadow 0.3s ease-in-out
+}
+.title p:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Glow effect */
 }
 
 h1{
