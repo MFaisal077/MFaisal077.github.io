@@ -32,7 +32,9 @@
     }
 }
 
-
+p.title{
+   background-color: aqua;
+}
 
 h1{
 color:aliceblue;
