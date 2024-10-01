@@ -137,3 +137,20 @@ img {
     border: 3px ;
     padding: 10px;
 }
+
+
+.Education dl{
+   
+    padding-left: 50vh;
+   list-style-type: circle;
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+ color: aliceblue;
+ text-align: justify;
+ 
+ font-size: 1.4rem;
+ transition: box-shadow 0.3s ease-in-out
+}
+
