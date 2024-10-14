@@ -220,10 +220,80 @@ body{
 }
 
 
-.projects-list img{
-    width:100px;
-    height: 100px;
-    display: flex;
-    padding-left: 180px;
+.projects {
+    max-width: 1200px;
+    padding-left:160px;
+    margin: 30px auto;
+    
+    background-color: purple;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+.projects h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project-item {
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.project-images {
+    display: flex;
+    gap: 15px;
+}
+
+.project-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project-img-large {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .Navigation_bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-img, .project-img-large {
+        width: 100%;
+        height: auto;
+    }
 }

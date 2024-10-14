@@ -1,38 +1,52 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div>
-<section class="Project">
-    <h1>Project</h1>
-</section>
-        </div>
-        <div class="Navigation_bar">
-            <a href="index.html">Home</a>
-            <br>
-            <a href="About.html">About</a>
-            <br>
-            <a href="Contact Me.html">Contact Me</a>
-            <br>
-            <a href="Projects.html">Projects</a>
-            <br>
-            
-        </div>
-        <div class="projects-list">
-            <h2> The tale of the Jungle Boys</h2>
-        <ul>
-<li><img src="level3.png"></li>
-<li><img src="Level1.png"></li>
-<li><img src="Level2.png"></li>
-</ul>
-<ul>
-    <h1>Weather App</h1>
-    <li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <nav class="Navigation_bar">
+        <a href="index.html">Home</a><br>
+        <a href="About.html">About</a><br>
+        <a href="Contact Me.html">Contact Me</a><br>
+        <a href="Projects.html">Projects</a>
+    </nav>
 
-    </li>
-</ul>      
+    
+    <section class="projects">
+        <h1>Projects</h1>
+
+        <div class="project-list">
+           
+            <div class="project-item">
+                <h2>The Tale of the Jungle Boys</h2>
+                <p>
+                    Developed a 2D platformer game using JBox2D physics engine to gain a better understanding of OOP principles.
+                    Designed multiple levels featuring dynamic obstacles, platforms, and puzzles, demonstrating physics and problem-solving skills.
+                </p>
+                <div class="project-images">
+                    <img src="level3.png" alt="Level 3" class="project-img">
+                    <img src="Level1.png" alt="Level 1" class="project-img">
+                    <img src="Level2.png" alt="Level 2" class="project-img">
+                </div>
+            </div>
+
             
+            <div class="project-item">
+                <h2>SkyCast</h2>
+                <p>
+                    A weather forecast application built using HTML, CSS, and JavaScript. It fetches real-time data from the OpenWeather API.
+                </p>
+                <div class="project-images">
+                    <img src="SkyCast.png" alt="SkyCast" class="project-img-large">
+                </div>
+            </div>
         </div>
-    </body>
+    </section>
+
+    
+</body>
 </html>
